@@ -23,7 +23,7 @@
 
 Final-year B.Tech student (Artificial Intelligence & Data Science) at Velammal Engineering College, Chennai, focused on backend development and cloud infrastructure. I've shipped production systems — not just class projects — including a live college website and an examination portal on AWS EC2/S3 handling 300+ concurrent users.
 
-- Currently building **CIVISENSE** — an AI-powered civic issue detection & reporting platform
+- Currently building **[CIVISENSE](https://github.com/dpak-07/CIVISENSE.git)** — an AI-powered civic issue detection & reporting platform
 - Also developing **Vadachennai Kural**, an e-magazine client website
 - Sharpening DSA in Python; exploring GATE (DA) / M.Tech alongside placement prep
 - Open to Backend Development / Software Engineering roles with AI-ML exposure
@@ -99,10 +99,6 @@ Final-year B.Tech student (Artificial Intelligence & Data Science) at Velammal E
 <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=dpak-07&layout=compact&theme=github_dark&hide_border=true&langs_count=8" height="165"/>
 </div>
 
-<div align="center">
-<img src="https://github-profile-trophy-winning.vercel.app/?username=dpak-07&theme=github_dark&no-frame=true&row=1&margin-w=15&column=7" />
-</div>
-
 <br/>
 
 ## Contribution Activity
@@ -137,16 +133,19 @@ Final-year B.Tech student (Artificial Intelligence & Data Science) at Velammal E
 
 <div align="center">
 
+<a href="https://github.com/dpak-07/CIVISENSE.git">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=dpak-07&repo=CIVISENSE&theme=github_dark&hide_border=true" alt="CIVISENSE repository card" />
+</a>
 <a href="https://github.com/dpak-07/portfolio-dynamic">
-  <img src="https://github-stats-extended.vercel.app/api/pin/?username=dpak-07&repo=portfolio-dynamic&theme=github_dark&hide_border=true" />
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=dpak-07&repo=portfolio-dynamic&theme=github_dark&hide_border=true" alt="Dynamic Portfolio repository card" />
 </a>
 
 </div>
 
 | Project | Stack | Highlights |
 |---|---|---|
-| **CIVISENSE** | Python · YOLOv8 · PyTorch · Flask · React · React Native | AI-powered civic issue detection & reporting for smart cities |
-| **Dynamic Portfolio** | React 19 · Vite · TS · Firebase · Three.js · GSAP | CMS-backed portfolio with analytics, PWA & CI/CD |
+| **[CIVISENSE](https://github.com/dpak-07/CIVISENSE.git)** | Python · YOLOv8 · PyTorch · Flask · React · React Native | AI-powered civic issue detection & reporting for smart cities |
+| **[Dynamic Portfolio](https://github.com/dpak-07/portfolio-dynamic)** | React 19 · Vite · TS · Firebase · Three.js · GSAP | CMS-backed portfolio with analytics, PWA & CI/CD |
 | **Study Spark** | MERN · Firebase · AI/ML | AI learning platform with summarization & flashcards |
 | **Fake Website Detection** | Flask · Flutter · CNN | Real-time fraudulent website detection via ML |
 | **College Exam Portal** | Node.js · Express · MongoDB · AWS | Production exam system serving 300+ students on EC2/S3 |
