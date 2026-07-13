@@ -1,5 +1,17 @@
 <div align="center">
 
+<!-- hero: monochrome ASCII portrait beside a profile/info card -->
+<table>
+<tr>
+<td valign="top"><img src="./avi-ascii.svg" width="370" alt="Deepak S — ASCII portrait" /></td>
+<td valign="top"><img src="./info-card.svg" width="490" alt="Deepak S — experience, stack, highlights" /></td>
+</tr>
+</table>
+
+<div align="center">
+  <img src="./info-card.svg" width="720" alt="Deepak S — profile info card" />
+</div>
+
 # Deepak S
 
 ### Backend & Cloud Engineer · AI/ML Developer
@@ -85,47 +97,6 @@ Final-year B.Tech student (Artificial Intelligence & Data Science) at Velammal E
 </td>
 </tr>
 </table>
-
-<br/>
-
-## GitHub Stats
-
-<div align="center">
-<img src="https://github-stats-extended.vercel.app/api?username=dpak-07&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" height="165"/>
-<img src="https://streak-stats.demolab.com?user=dpak-07&theme=github-dark-blue&hide_border=true" height="165"/>
-</div>
-
-<div align="center">
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=dpak-07&layout=compact&theme=github_dark&hide_border=true&langs_count=8" height="165"/>
-</div>
-
-<br/>
-
-## Contribution Activity
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dpak-07&theme=github-compact&hide_border=true&bg_color=0d1117" width="100%"/>
-</div>
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dpak-07/dpak-07/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dpak-07/dpak-07/output/github-contribution-grid-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/dpak-07/dpak-07/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake contribution graph"/>
-</picture>
-</div>
-
-<br/>
-
-## 3D Contribution Calendar
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg"/>
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution calendar"/>
-</picture>
-</div>
 
 <br/>
 
