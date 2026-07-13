@@ -18,13 +18,16 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-# Prefer the JPG portrait when available, then the preview image, and finally
-# the prepped grayscale image if needed.
+# Prefer the remove-background PNG when available, then the JPG portrait, then
+# the preview image, and finally the prepped grayscale image if needed.
+PNG_SRC = os.path.join(HERE, "..", "IMG_0934-removebg-preview.png")
 JPG_SRC = os.path.join(HERE, "..", "IMG_0934.jpg")
 HEIC_SRC = os.path.join(HERE, "..", "IMG_0934.heic")
 PREVIEW_SRC = os.path.join(HERE, "..", "preview.webp")
 PREPPED_SRC = os.path.join(HERE, "..", "source-prepped.png")
-SRC = sys.argv[1] if len(sys.argv) > 1 else JPG_SRC
+SRC = sys.argv[1] if len(sys.argv) > 1 else PNG_SRC
+if not os.path.exists(SRC):
+    SRC = JPG_SRC
 if not os.path.exists(SRC):
     SRC = HEIC_SRC
 if not os.path.exists(SRC):

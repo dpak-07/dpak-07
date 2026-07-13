@@ -32,8 +32,13 @@ jobs:
       - name: Render contribution graph SVG (boxes)
         run: python scripts/render_heatmap_svg.py
 
+      - name: Regenerate profile SVGs from current image assets
+        run: |
+          python scripts/make_info_card.py
+          python scripts/make_ascii_svg.py IMG_0934-removebg-preview.png
+
       - name: Commit updated art
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg avi-ascii.svg info-card.svg"
