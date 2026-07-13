@@ -8,9 +8,7 @@
 </tr>
 </table>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/dpak-07/dpak-07/main/info-card.svg" width="720" alt="Deepak S — profile info card" />
-</div>
+
 
 # Deepak S
 
