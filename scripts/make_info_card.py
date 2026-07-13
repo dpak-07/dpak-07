@@ -121,6 +121,7 @@ for i, row in enumerate(ROWS):
 
 parts.append("</svg>")
 svg = "".join(parts)
-with open(OUT, "w") as f:
+svg = '<?xml version="1.0" encoding="UTF-8"?>\n' + svg
+with open(OUT, "w", encoding="utf-8") as f:
     f.write(svg)
 print("wrote", OUT, len(svg), "bytes;", W, "x", H, "content_bottom", round(y))
