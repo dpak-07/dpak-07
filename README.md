@@ -100,6 +100,34 @@ Final-year B.Tech student (Artificial Intelligence & Data Science) at Velammal E
 
 <br/>
 
+## GitHub Activity
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dpak-07&theme=github-compact&hide_border=true&bg_color=0d1117" width="100%" alt="Contribution activity graph"/>
+</div>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dpak-07/dpak-07/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dpak-07/dpak-07/output/github-contribution-grid-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/dpak-07/dpak-07/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake contribution graph"/>
+</picture>
+</div>
+
+<br/>
+
+## 3D Contribution Calendar
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg"/>
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution calendar"/>
+</picture>
+</div>
+
+<br/>
+
 ## Featured Projects
 
 <div align="center">
