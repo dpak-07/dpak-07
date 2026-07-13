@@ -36,19 +36,19 @@ if not os.path.exists(SRC):
     SRC = PREPPED_SRC
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "avi-ascii.svg")
 
-COLS = 100
-ROWS = 53
+COLS = 96
+ROWS = 50
 CELL_W = 8
 CELL_H = 15
-RAMP = " .`:-=+*cs#%@"  # bright(sparse) -> dark(dense); leading space clears bg
+RAMP = " .:-=+*#%@"  # slightly denser ramp for better detail
 
-# the prepped image already has bg removed + CLAHE local contrast, so only
-# light global tuning is needed here.
-CONTRAST = 1.05
-BRIGHTNESS = 1.0
-GAMMA = 1.18          # >1 brightens mids -> face lands in sparser chars
-SHARPEN = False
-WHITE_FLOOR = 0.80    # luminance above this is forced to blank (space)
+# Increase contrast and push light regions to blank so the face reads as a
+# cleaner silhouette rather than a muddy blob.
+CONTRAST = 1.35
+BRIGHTNESS = 1.12
+GAMMA = 1.35
+SHARPEN = True
+WHITE_FLOOR = 0.74
 
 PAD = 20
 TITLEBAR_H = 30
@@ -72,9 +72,17 @@ STAGGER = 0.11       # == ROW_DUR -> a single cursor sweeping down
 # ---- 1. sample the image into a COLS x ROWS grayscale grid ----------------
 im = Image.open(SRC).convert("L")               # grayscale
 if SHARPEN:
-    im = im.filter(ImageFilter.UnsharpMask(radius=2, percent=140, threshold=2))
+    im = im.filter(ImageFilter.UnsharpMask(radius=2, percent=170, threshold=2))
 im = ImageEnhance.Brightness(im).enhance(BRIGHTNESS)
 im = ImageEnhance.Contrast(im).enhance(CONTRAST)
+# crop to a tighter portrait framing before sampling the grid
+w, h = im.size
+pad = max(0, int(w * 0.06))
+left = pad
+right = w - pad
+top = int(h * 0.02)
+bottom = h - int(h * 0.04)
+im = im.crop((left, top, right, bottom))
 im = im.resize((COLS, ROWS), Image.LANCZOS)
 px = im.load()
 
