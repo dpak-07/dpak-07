@@ -3,13 +3,13 @@
 <!-- hero: monochrome ASCII portrait beside a profile/info card -->
 <table>
 <tr>
-<td valign="top"><img src="./avi-ascii.svg" width="370" alt="Deepak S — ASCII portrait" /></td>
-<td valign="top"><img src="./info-card.svg" width="490" alt="Deepak S — experience, stack, highlights" /></td>
+<td valign="top"><img src="https://raw.githubusercontent.com/dpak-07/dpak-07/main/avi-ascii.svg" width="370" alt="Deepak S — ASCII portrait" /></td>
+<td valign="top"><img src="https://raw.githubusercontent.com/dpak-07/dpak-07/main/info-card.svg" width="490" alt="Deepak S — experience, stack, highlights" /></td>
 </tr>
 </table>
 
 <div align="center">
-  <img src="./info-card.svg" width="720" alt="Deepak S — profile info card" />
+  <img src="https://raw.githubusercontent.com/dpak-07/dpak-07/main/info-card.svg" width="720" alt="Deepak S — profile info card" />
 </div>
 
 # Deepak S
@@ -122,7 +122,7 @@ Final-year B.Tech student (Artificial Intelligence & Data Science) at Velammal E
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg"/>
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution calendar"/>
+  <img src="https://raw.githubusercontent.com/dpak-07/dpak-07/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution calendar"/>
 </picture>
 </div>
 
